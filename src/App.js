@@ -17,7 +17,7 @@ function App() {
         </NavLink>
         <Switch>
           <Route exact path="/" component={City} />
-          <Route path="/:cityName" component={Details} />
+          <Route exact path="/:cityName" component={Details} />
         </Switch>
       </div>
     </Provider>
